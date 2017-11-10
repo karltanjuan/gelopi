@@ -13,3 +13,6 @@ Column Types:
 1. col-lg-* for Desktop and Larger Screens
 2. col-md-* for Table Screens
 3. col-sm-* for Mobile Screens
+
+See Example:
+https://karltanjuan.github.io/gelopi/

@@ -6,7 +6,7 @@ How to Use:
 1. Add grid-fluid class for 100% width or grid-fit for custom width size
 2. Add row class container
 3. Add col-*-12 for 100% column
-	Example: col-lg-12 for 100% desktop column
+	Example: col-glg-12 for 100% desktop column
 
 
 Column Types:

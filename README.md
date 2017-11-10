@@ -1,4 +1,4 @@
-# gelopi
+# GELOPI GRID
 Simple CSS Grid Library
 
 How to Use:
@@ -10,6 +10,6 @@ How to Use:
 
 
 Column Types:
-a. col-lg-* for Desktop and Larger Screens
-b. col-md-* for Table Screens
-c. col-sm-* for Mobile Screens
+1. col-lg-* for Desktop and Larger Screens
+2. col-md-* for Table Screens
+3. col-sm-* for Mobile Screens

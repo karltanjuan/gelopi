@@ -1,0 +1,121 @@
+/*
+	Name: Gelopi Grid Library
+	Date: Created: June 20, 2015
+	All Rights Reserved 2017
+*/
+
+@charset "UTF-8";
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #eee;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.grid-fluid {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.grid-fit {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.grid-fluid:before,
+.grid-fluid:after,
+.grid-fit:before,
+.grid-fit:after,
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.grid-fluid:after,
+.grid-fit:after,
+.row:after {
+	clear: both;
+}
+
+[class*="col-"] {
+	width: 100%;
+	float: left;
+	background: #ddd;
+	color: #333;
+	min-height: 1px;
+}
+
+
+/*
+	Mobile
+*/
+@media screen and (min-width: 320px) {
+	.col-gsm-1 {width: 8.33333%;}
+	.col-gsm-2 {width: 16.66667%;}
+	.col-gsm-3 {width: 25%;}
+	.col-gsm-4 {width: 33.33333%;}
+	.col-gsm-5 {width: 41.66667%;}
+	.col-gsm-6 {width: 50%;}
+	.col-gsm-7 {width: 58.33333%;}
+	.col-gsm-8 {width: 66.66667%;}
+	.col-gsm-9 {width: 75%;}
+	.col-gsm-10 {width: 83.33333%;}
+	.col-gsm-11 {width: 91.66667%;}
+	.col-gsm-12 {width: 100%;}
+}
+
+/*
+	Tablet
+*/
+@media screen and (min-width: 640px) {
+	.col-gmd-1 {width: 8.33333%;}
+	.col-gmd-2 {width: 16.66667%;}
+	.col-gmd-3 {width: 25%;}
+	.col-gmd-4 {width: 33.33333%;}
+	.col-gmd-5 {width: 41.66667%;}
+	.col-gmd-6 {width: 50%;}
+	.col-gmd-7 {width: 58.33333%;}
+	.col-gmd-8 {width: 66.66667%;}
+	.col-gmd-9 {width: 75%;}
+	.col-gmd-10 {width: 83.33333%;}
+	.col-gmd-11 {width: 91.66667%;}
+	.col-gmd-12 {width: 100%;}
+}
+
+/*
+	Desktop
+*/
+@media screen and (min-width: 960px) {
+	.col-glg-1 {width: 8.33333%;}
+	.col-glg-2 {width: 16.66667%;}
+	.col-glg-3 {width: 25%;}
+	.col-glg-4 {width: 33.33333%;}
+	.col-glg-5 {width: 41.66667%;}
+	.col-glg-6 {width: 50%;}
+	.col-glg-7 {width: 58.33333%;}
+	.col-glg-8 {width: 66.66667%;}
+	.col-glg-9 {width: 75%;}
+	.col-glg-10 {width: 83.33333%;}
+	.col-glg-11 {width: 91.66667%;}
+	.col-glg-12 {width: 100%;}
+}
+
+.col {
+	padding: 1em;
+	margin: 8px;
+	border-radius: 3px;
+	text-align: center;
+}
